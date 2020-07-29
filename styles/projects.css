@@ -9,7 +9,6 @@
 
 /* Animations */
 
-
 /* Projects Styling */
 body {
     display: flex;
@@ -86,9 +85,10 @@ body {
 
 .open {
     height: 75%;
-    
+    transition: height, 2s;
 }
 
 .close {
     height: 7.5%;
+    transition: height, 2s;
 }

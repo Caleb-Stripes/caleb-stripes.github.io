@@ -38,7 +38,6 @@ function openThree() {
 
 function toggleOff() {
     const panels = [panelOne, panelTwo, panelThree]
-    console.log(panels)
     panels.forEach(panel => {
         panel.classList = 'panel';
    });
