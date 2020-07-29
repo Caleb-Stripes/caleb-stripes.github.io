@@ -87,11 +87,11 @@ body {
 /* Toggle Classes for Animations */
 
 .open {
-    height: 75%;
+    height: 85%;
     transition: height, 2s;
 }
 
 .close {
-    height: 7.5%;
+    height: 7.65%;
     transition: height, 2s;
 }
