@@ -67,18 +67,21 @@ body {
     background-image: url(../resources/Crick_Crossing.jpg);
     background-size: 100%;
     background-position-y: top;
+    transition: height, 2s;
 }
 
 #panelTwo {
     background-image: url(../resources/Pets_Amok.JPG);
     background-size: 100%;
     background-position-y: 50%;
+    transition: height, 2s;
 }
 
 #panelThree {
     background-image: url(../resources/Route_Finder.JPG);
     background-size: 100%;
     background-position-y: bottom;
+    transition: height, 2s;
 }
 
 /* Toggle Classes for Animations */

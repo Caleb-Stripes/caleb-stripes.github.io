@@ -16,24 +16,36 @@ function updateProjectsJs() {
 }
             
 function openOne() {
-    toggleOff();
-    panelOne.classList.toggle('open')
-    panelTwo.classList.toggle('close')
-    panelThree.classList.toggle('close')
+    if (panelOne.classList == 'panel open'){
+        toggleOff();    
+    } else {
+        toggleOff();
+        panelOne.classList.toggle('open')
+        panelTwo.classList.toggle('close')
+        panelThree.classList.toggle('close')
+    }
 }
 
 function openTwo() {
+    if (panelTwo.classList == 'panel open'){
+        toggleOff();
+    } else {
     toggleOff();
     panelOne.classList.toggle('close')
     panelTwo.classList.toggle('open')
     panelThree.classList.toggle('close')
+    }
 }
 
 function openThree() {
+    if (panelThree.classList == 'panel open'){
+        toggleOff();
+    } else {
     toggleOff();
     panelOne.classList.toggle('close')
     panelTwo.classList.toggle('close')
     panelThree.classList.toggle('open')
+    }
 }
 
 function toggleOff() {
