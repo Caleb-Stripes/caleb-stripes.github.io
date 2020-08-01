@@ -53,12 +53,15 @@ body {
 }
 
 .description {
+    display: flex;
+    align-self: flex-end;
     color: cornsilk;
     font-family: 'Amatic SC', cursive;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-weight: 400;
     font-size: large;
     visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.33);
 }
 
 /* Project Styling Specific to Each Id*/

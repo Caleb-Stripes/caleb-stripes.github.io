@@ -86,7 +86,7 @@ function myProjectsClick() {
     panelOneContent.append(panelOneContentTitle)
     let panelOneContentDescription = document.createElement('p')
     panelOneContentDescription.className = 'description'
-    panelOneContentDescription.innerHTML = 'An application created to allow anyone to generate, customize and print invoices. So that even contractors, self employed and temps can get paid professionally.'
+    panelOneContentDescription.innerHTML = 'This project was developed collaboratively at the culmination of my coding boot camp. The goal was to create a piece of software that provided private contractors and agencies to manage billing and payments between themselves, while keeping documentation of job specifics. It employs a full stack of development languages and frameworks. Due to the timing of the covid-19 pandemic this project was developed 100% remotely using github project management tools, Google jamboard, as well as numerous applications to communicate such as hangout and slack. We are proud of the final product and it was presented to a live audience via a We Can Code IT virtual demo day.'
     panelOneContent.append(panelOneContentDescription)    
 
     // ******** Panel Two ********
@@ -104,7 +104,7 @@ function myProjectsClick() {
     panelTwoContent.append(panelTwoContentTitle)
     let panelTwoContentDescription = document.createElement('p')
     panelTwoContentDescription.className = 'description'
-    panelTwoContentDescription.innerHTML = 'A virtual simulation of an animal shelter, complete with cyclical game loops, variable manipulation and ROBOTIC PETS!!!'
+    panelTwoContentDescription.innerHTML = 'This builds upon two previous projects: a tamagotchi (pet) type game loop employing basic class and method construction, and a shelter project utilizing inheritance to manage multiple types of those pets. Pets Amok adds additional conditions to both the pets and the shelter containing them and expands the game loop to insite levels of panic among the more empathetic players. While remaining a console program it introduces more complex logic and requires more creative problem solving to develop. The true value from this project was the strong foundation of Object Oriented Programming and religious-like conviction for Test Driven Development.'
     panelTwoContent.append(panelTwoContentDescription)
 
     // ******** Panel Three ********
@@ -122,7 +122,7 @@ function myProjectsClick() {
     panelThreeContent.append(panelThreeContentTitle)
     let panelThreeContentDescription = document.createElement('p')
     panelThreeContentDescription.className = 'description'
-    panelThreeContentDescription.innerHTML = 'A full stack piece of software used to categorize and index climbing routes by location, difficulty, user rating and name. Uses Java to establish back-end repositories with sorting and searching methods. A Spring framework with a RESTful API, to a front-end written in html, css and javascript. Invisioning a solution similar to that of Mountain Project'
+    panelThreeContentDescription.innerHTML = "Route Finder is designed to provide climbers with a virtual companion able to replace the bulky guidebook that is limited in specialization to specific locations. It could hold relevant route information for climbs around the world, index the same information from all climbing guidebooks, and occupy only a fraction of the physical space within a climber's pack. Categorizing routes by location, difficulty, community rating, style, rock-type and climbing-type are just the initial ways to index them. Furthermore allowing users to search based on these characteristics it can make planning trips to climbing destinations much more simple. Often one of the most difficult things to do is find the specific route based on the approach beta. This program could implement a community submitted solution to this allowing up-votes and down-votes so the most helpful approach beta is seen first when searched (similar to stack overflow). The software is developed in Java, implementing a Spring framework and a HTML/CSS/JavaScript front end."
     panelThreeContent.append(panelThreeContentDescription)
 
     // ******** Panel Four ********
