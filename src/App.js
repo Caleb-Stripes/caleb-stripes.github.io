@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './components/button.js'
+import MyButton from './components/button.js'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <p>
           Portfolio Under Construction
         </p>
-        <Button />
+        <MyButton />
       </header>
     </div>
   );
