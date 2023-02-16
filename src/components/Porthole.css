@@ -1,0 +1,11 @@
+.porthole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}

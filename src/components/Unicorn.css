@@ -1,0 +1,44 @@
+.unicorn > *{
+    animation: run 20s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 0;
+	pointer-events: none;
+}
+@keyframes run {
+	/* 0% {
+
+		transform: translate(-200%,110vh) rotateZ(0deg);opacity: 1;
+	} */
+
+	0% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	25% {
+		transform: translate(-120%,50vh) scale(2.75)  rotateZ(-20deg);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%) rotateZ(-40deg);
+	}
+
+	50% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+	}
+	75% {
+		transform: translate(200%,100vh) rotateZ(20deg);
+	}
+	87.5% {
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+	}
+}
