@@ -1,0 +1,16 @@
+.herocard > *{
+    background-color: rgb(97, 85, 70);
+    border-radius: 5%;
+    padding: 15px 15px;
+    width: 200%;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    display: flex;
+}
