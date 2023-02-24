@@ -7,6 +7,7 @@ import three from '../walls/wall04/dragonstone.png';
 import four from '../walls/wall04/ke-melek.png';
 import five from '../walls/wall04/ashland-battle.png';
 import six from '../walls/wall04/einar-oshan.png'
+import seven from '../walls/wall04/rown.png'
 
 
 const Carousel05 = () => {
@@ -29,6 +30,9 @@ const Carousel05 = () => {
       </div>
       <div>
         <img src={six} />
+      </div>
+      <div>
+        <img src={seven} />
       </div>
       
     </Carousel>
