@@ -13,13 +13,15 @@ import ten from '../walls/wall01/masquerade.jpg';
 import eleven from '../walls/wall01/4 generations.jpg';
 
 const Carousel01 = () => {
+  const handleClick = () => {alert('clicked')}
+
   return ( 
     <Carousel>
       <div>
         <img className='portrait' src={one}/>
       </div>
       <div>
-        <img className='image' src={two} />
+        <img id="Wow, you are clever aren't you." src={two} />
       </div>
       <div>
         <img className='image' src={three} />

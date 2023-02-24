@@ -174,7 +174,7 @@
       margin: 0;
       position: relative;
       text-align: center; }
-      .carousel .slide img {
+      .carousel .slide img{
         max-width: fit-content;
         max-height: 55vh;
         vertical-align: top;

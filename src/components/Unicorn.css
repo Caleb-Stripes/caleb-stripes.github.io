@@ -3,9 +3,15 @@
     top: 0;
 	left: 0;
 	position: fixed;
-	z-index: 0;
+	z-index: 99;
 	pointer-events: none;
 }
+
+#unicorn {
+	visibility: hidden;
+	margin-bottom: 5px;
+}
+
 @keyframes run {
 	/* 0% {
 
