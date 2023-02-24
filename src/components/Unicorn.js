@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import uots from '../walls/wall00/uots.png';
 import './Unicorn.css';
+import Button from '@mui/material/Button';
 
 const Unicorn = () => {
 
@@ -11,14 +12,14 @@ const Unicorn = () => {
   );
 };
 
-const UniButton = () => {
+const UniButton = (props) => {
   const [showUnicorn, setShowUnicorn] = useState(false);
 
   return (
     <div>
-      <button onClick={() => setShowUnicorn(!showUnicorn)}>
+      <Button id={props.id} style={props.visibility} variant="contained" onClick={() => setShowUnicorn(!showUnicorn)}>
         Run the Unicorn
-      </button>
+      </Button>
       {showUnicorn && <Unicorn />}
     </div>
   );
