@@ -48,12 +48,14 @@
     function the(){
       alert("Well done. Now if you are really clever you will find the clue hidden behind the fourth wall, watch out for the octocat.")
     }
-    function seeInvisibility(){
-      document.getElementById('unicorn').style = 'visibility: visible;'
-      console.log('This mystic sea mammal is also quite functional you know.')
+    function seeInvisibility(arg){
+      document.getElementById(arg).style = 'visibility: visible;'
     }
-    function narwhale(){
-      document.getElementById('nerd-world').style = 'visibility: visible'
+    function question(arg){
+      if (arg = 'narwhale'){
+        document.getElementById('nerd-world').style = 'visibility: visible'
+        alert("The Narwhale points its tusk at a new gallery button (Rouvray), what could that be.")
+      }    
     }
   </script>
 </html>

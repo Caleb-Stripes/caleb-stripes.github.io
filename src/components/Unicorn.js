@@ -4,6 +4,7 @@ import './Unicorn.css';
 import Button from '@mui/material/Button';
 
 const Unicorn = () => {
+  console.log('Mystic sea mammals are very wise. How about you question(seaMammal) using your console.')
 
   return (
     <div className='unicorn'>
